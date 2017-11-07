@@ -11,7 +11,7 @@ const CxltToastr = {
 
         function showToast(obj, type) {
             const ToastrComponent = Vue.extend(Toastr)
-            var propsData = Object.assign(obj, options, {
+            var propsData = Object.assign({}, options, obj, {
                 type: type
             })
             let component = new ToastrComponent({

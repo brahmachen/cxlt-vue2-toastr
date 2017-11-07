@@ -1,6 +1,6 @@
 {
     "name": "vue2-toastr",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "vue2 toastr component",
     "author": "Mason Chen <brahma_chen@foxmail.com>",
     "private": false,
